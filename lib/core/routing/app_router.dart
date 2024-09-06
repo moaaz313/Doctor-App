@@ -1,3 +1,4 @@
+import 'package:doctor_app/featuers/login/ui/login_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../featuers/onboarding/onboarding_screen.dart';
@@ -12,7 +13,7 @@ class AppRouter {
         );
       case Routes.loginScreen:
         return MaterialPageRoute(
-          builder: (_) => const Placeholder(),
+          builder: (_) => const LoginScreen(),
         );
       default:
         return MaterialPageRoute(
